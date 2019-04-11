@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  background: #DDD;
+  font-family: Helvetica;
+  font-size: 12px
+}
+#container{
+  margin: 10px;
+  padding: 10px;
+}
+#sketch svg{
+  background: rgba(255,255,255,255);
+  border: solid 1px;
+  border-radius: 3px;
+}
+#form {
+  margin-bottom: 10px;
+}
+#inputFileName{
+  width: 100px;
+}
+#inputDpi {
+  width: 20px;
+}

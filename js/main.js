@@ -23,6 +23,7 @@ convertSvgPpi = (elementId, ppi) => {
   svgCopy.setAttribute('width',  scaler * svgCopy.getAttribute('width'))
   svgCopy.setAttribute('height', scaler * svgCopy.getAttribute('height'))
 
+  // does not seem to work:
   let svgNodes = svgCopy.childNodes
   for(var i=0; i < svgNodes.length; i++) {
     svgNodes[i].setAttribute('width',  scaler * svgNodes[i].getAttribute('width'))
